@@ -1,5 +1,14 @@
 {
+  "name": "calculator-root",
+  "private": true,
+  "scripts": {
+    "build": "npm --prefix calculator-app run build",
+    "install-app": "npm --prefix calculator-app install"
+  },
   "dependencies": {
     "mathjs": "^15.0.0"
+  },
+  "devDependencies": {
+    "gh-pages": "^6.3.0"
   }
 }
